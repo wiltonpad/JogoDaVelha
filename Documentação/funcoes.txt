@@ -1,20 +1,21 @@
-# def recebimento_de_msgs(self) - > recebe egerencia as mensagens.
+(Servidor):
+# def recebimento_de_msgs(self): recebe egerencia as mensagens.
 
-# def verificar_sala(self, cliente) - > Verifica a quantidade de jogadores que estão na sala.
+# def verificar_sala(self, cliente): Verifica a quantidade de jogadores que estão na sala.
 
-# def iniciar_jogo(self) - >  Inicia a partida.
+# def iniciar_jogo(self):  Inicia a partida.
 
-# def jogo_rodando(self, cliente, msg) - > Faz o jogo rodar enviando as informaçoes basicas para o jogador.
+# def jogo_rodando(self, cliente, msg): Faz o jogo rodar enviando as informaçoes basicas para o jogador.
 
-# def comecar_jogo(self, i, resposta) - > informa aos jogadores que a partida comecou.
+# def comecar_jogo(self, i, resposta): informa aos jogadores que a partida comecou.
 
-# def mandar_representacao(self, i, tabuleiro) - > envia a Representação do tabuleiro para os jogadores.
+# def mandar_representacao(self, i, tabuleiro): envia a Representação do tabuleiro para os jogadores.
 
-# def jogue(self) - > informa ao jogador da vez, que ele deve jogar.
+# def jogue(self): informa ao jogador da vez, que ele deve jogar.
 
-# def jogada_atual(self, jogada) - > verifica se a jogada.
+# def jogada_atual(self, jogada): verifica se a jogada.
 
-# def verificar_jogada(self, jogada) - > Verifica se jogou em um espaço vazio
+# def verificar_jogada(self, jogada): Verifica se jogou em um espaço vazio
 
 # def mudar_turno(self):  Muda o turno a cada jogada
 
@@ -31,4 +32,14 @@
 # def verificar_horizontal(self): Verifica se alguém venceu na horizontal
 
 # def verificar_diagonal(self): Verifica se alguém venceu na diagonal
+
+(Jogador):
+# def entrar(self): solicita a entrada na partida
+
+# def sala_de_espera(self): Manda o jogador 1 para sala de espera
+
+# def jogar(self, resposta): Realiza a jogada feita pelo jogador
+
+# def rodando(self, resposta): Faz o jogo rodar de acordo com as mensagens recebidos do servidor
+
   
