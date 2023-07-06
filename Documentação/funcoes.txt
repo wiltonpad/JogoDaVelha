@@ -1,3 +1,34 @@
-# def recebimento_de_msgs(self) - > recebe as mensagens.
+# def recebimento_de_msgs(self) - > recebe egerencia as mensagens.
 
+# def verificar_sala(self, cliente) - > Verifica a quantidade de jogadores que estão na sala.
 
+# def iniciar_jogo(self) - >  Inicia a partida.
+
+# def jogo_rodando(self, cliente, msg) - > Faz o jogo rodar enviando as informaçoes basicas para o jogador.
+
+# def comecar_jogo(self, i, resposta) - > informa aos jogadores que a partida comecou.
+
+# def mandar_representacao(self, i, tabuleiro) - > envia a Representação do tabuleiro para os jogadores.
+
+# def jogue(self) - > informa ao jogador da vez, que ele deve jogar.
+
+# def jogada_atual(self, jogada) - > verifica se a jogada.
+
+# def verificar_jogada(self, jogada) - > Verifica se jogou em um espaço vazio
+
+# def mudar_turno(self):  Muda o turno a cada jogada
+
+# def alguem_venceu(self, jogador, result): Informa que alguém venceu
+
+# def empate(self, jogador, result): Informa que a partida empatou
+
+# def thread_enviar(self, funcao, result): Faz o envio simultaneo das mensagens para os dois jogadores 
+
+# def verificar_tabuleiro(self): Verifica se alguém venceu checando vertical, horizontal e diagonal
+
+# def verificar_vertical(self): Verifica se alguém venceu na vertical
+
+# def verificar_horizontal(self): Verifica se alguém venceu na horizontal
+
+# def verificar_diagonal(self): Verifica se alguém venceu na diagonal
+  
