@@ -98,7 +98,7 @@ class ServidorDoJogo:
 
   # Turno do jogador
   def jogue(self):
-    resposta = 'Insert/' + f'Turno do {self.turno}, qual sua jogada?'
+    resposta = 'Get/' + f'Turno do {self.turno}, qual sua jogada?'
     self.udp.sendto(resposta.encode(), self.jogadores[self.jogador_da_vez])
 
   # Checagem de jogada válida
