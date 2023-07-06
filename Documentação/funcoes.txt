@@ -1,1 +1,3 @@
+# def recebimento_de_msgs(self) - > recebe as mensagens.
+
 
