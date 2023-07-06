@@ -56,7 +56,7 @@ class Jogador:
         resposta = resposta.decode().split('/')
         if resposta[0] == 'Content':
           print(resposta[1])
-        if resposta[0] == 'Insert':
+        if resposta[0] == 'Get':
           self.jogar(resposta[1])
         if resposta[0] == 'Win':
           print(resposta[1])
