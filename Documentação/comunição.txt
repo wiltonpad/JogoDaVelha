@@ -1,0 +1,32 @@
+# Cliente:
+'Request/Quero Jogar!'
+O cliente envia esse comando para o servidor ao tentar entrar na partida.
+
+
+# Servidor:
+'Confirm/Você entrou na partida!'
+O servidor envia esse comando para o jogador quando ele entra na partida.
+
+'Wait/esperando outro jogador entrar...'
+O servidor envia esse comando para o jogador quando o jogo ainda não está completo.
+
+'Full/A Sala está Cheia.'
+O servidor envia esse comando para o jogador quando ele tenta entrar na partida e a sala já está cheia.
+
+'Draw/EMPATE!!'
+O servidor envia esse comando para os jogadores quando o jogo termina em empate.
+
+'Start/Jogo Comecou!!'
+O servidor envia esse comando para os jogadores quando o jogo inicia.
+
+'Content/' + tabuleiro.repr()
+O servidor envia esse comando para os jogadores contendo a representação do tabuleiro.
+
+'Insert/' + f'Turno do {self.turno}, qual sua jogada?'
+O servidor envia esse comando para o jogador quando é sua vez de jogar.
+
+'ERROR/jogada invalida, tente novamente!'
+O servidor envia esse comando para o jogador quando ele faz uma jogada inválida (numa posição que já está preenchida por exemplo).
+
+'Win/{result} é o vencedor'
+O servidor envia esse comando contendo o vencedor para os jogadores quando alguém vence.
